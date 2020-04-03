@@ -21,16 +21,6 @@ Social Mapper takes a variety of input types such as:
 * A folder full of named images
 * A CSV file with names and URL’s to images online
 
-## Usecases (Why you want to run this)
-
-Social Mapper is primarily aimed at Penetration Testers and Red Teamers, who will use it to expand their target lists and find their social media profiles. From here what you do is only limited by your imagination, but here are a few ideas to get started:
-
-(Note: Social Mapper does not perform these attacks, it gathers you the data you need to perform them on a mass scale.)
-
-* Create fake social media profiles to 'friend' the targets and send them links or malware. Recent statistics show social media users are more than twice as likely to click on links and open documents compared to those delivered via email.
-* Trick users into disclosing their emails and phone numbers with vouchers and offers to make the pivot into phishing, vishing or smishing.
-* Create custom phishing campaigns for each social media site, knowing that the target has an account. Make these more realistic by including their profile picture in the email. Capture the passwords for password reuse.
-* View target photos looking for employee access card badges and familiarise yourself with building interiors.
 ## Getting Started
 
 These instructions will show you the requirements for and how to use Social Mapper.
