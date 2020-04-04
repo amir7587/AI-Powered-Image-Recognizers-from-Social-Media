@@ -117,3 +117,21 @@ Additional optional parameters can also be set to add additional customisation t
 -e, --email		: Provide a fuzzy email format like "<f><last>@domain.com" to generate additional CSV files for each site with firstname, lastname, fullname, email, profileURL, photoURL. These can be fed into phishing frameworks such as Gophish or Lucy.
 ```
 
+STEPS TO RUN THE PROGRAM(using linux commands):
+1) git clone https://github.com/amir7587/AI-Powered-Image-Recognizers-from-SocialMedia.git   
+2) cd social_mapper/setup
+3) python3 -m pip install --no-cache-dir -r requirements.txt
+4) Open social_mapper.py and enter social media credentials into global variables at the top of the file
+
+To run The progran:
+
+5) python social_mapper.py -f imagefolder -i /root/Desktop/social_mapper/Input-Examples/imagefolder/ -m fast -fb  
+
+To view the profile link stored in csv file
+
+6) cat SM-Results/results-social_mapper.csv
+
+To view the profile link along with their images in html format
+
+7) firefox SM-Results/results-social_mapper.html 
+
